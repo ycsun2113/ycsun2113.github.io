@@ -1,0 +1,19 @@
+# Jekyll Configuration
+theme: jekyll-theme-minimal
+
+# Basic Information
+title: Yung-Ching Sun
+description: MS ECE (Robotics) at UMich
+logo: assets/img/cartoon_avatar_high_res.png
+
+# Contact & Social Links
+url_github: https://github.com/ycsun2113
+url_email: ycs@umich.edu
+url_linkedin: https://www.linkedin.com/in/yung-ching-sun
+# url_steam: https://steamcommunity.com/id/silvery107
+# url_scholar: https://scholar.google.com.sg/citations?hl=en&user=z_gDNE0AAAAJ
+url_cv: docs/CV_Yung-Ching_Sun.pdf
+
+# Optional Settings
+# chinese_name: assets/img/name_kaiti.svg
+# google_analytics: G-H2H5LCSDZ9
