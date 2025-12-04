@@ -101,108 +101,120 @@
         </p>
       </div>
     </td></tr> -->
-    <!-- ! Single-Image to Camera Pose with iNeRF and PoseCNN -->
-    <!-- <tr><td>
+    <!-- ! Real-Time Visual SLAM for Dynamic Environments -->
+    <tr><td>
       <div class="project_cell">
-        <img src="assets/img/fast_inerf_demo.gif" width="250" class="zoom">
+        <img src="assets/img/hybridDyn_SLAM_tracking_demo.gif" width="250" class="zoom">
       </div>
       <div class="project_cell">
         <p style="font-size:18px;margin-bottom: 0px;">
-          <font color="black"><b>Single-Image to Camera Pose with iNeRF and PoseCNN</b></font>
+          <font color="black"><b>Real-Time Visual SLAM for Dynamic Environments</b></font>
         </p>
         <p>
-          <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/silvery107/fast-inerf?style=plastic&logo=github">
-          [<a href="https://github.com/silvery107/fast-inerf" target="_blank">
+          <!-- <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/silvery107/fast-inerf?style=plastic&logo=github"> -->
+          [<a href="https://github.com/ycsun2113/HybridDyn_VSLAM" target="_blank">
             Code
           </a>]
-          [<a href="docs/fast_inerf_report.pdf" target="_blank">
-            PDF
+          [<a href="docs/ROB_530_Report.pdf" target="_blank">
+            Report
           </a>]
-          [<a href="assets/img/fast_inerf_system.png" target="_blank">
-            System Diagram
+          [<a href="docs/ROB_530_Poster.pdf" target="_blank">
+            Poster
           </a>]
           <br>
-          We present an efficient and robust system for view synthesis and pose estimation by integrating PoseCNN and iNeRF. Our method leverages the pose and object segmentation predictions from PoseCNN to improve the initial camera pose estimation and accelerate the optimization process in iNeRF.
+          We present a real-time visual SLAM system designed for dynamic environments, 
+          leveraging hybrid segmentation with FastSAM and YOLO11n-seg, 
+          and optical flow analysis to detect and mask open-vocabulary dynamic feature points, 
+          enabling robust and efficient tracking in dynamic scenes.
+          •	Achieved a maximum of 97.34% reduction in absolute trajectory error 
+          compared to the ORB-SLAM3 baseline while maintaining real-time performance, 
+          evaluated on TUM and Bonn datasets.
         </p>
       </div>
-    </td></tr> -->
+    </td></tr>
     <!-- ! ROB 550 Botlab -->
-    <!-- <tr><td>
+    <tr><td>
       <div class="project_cell">
-        <video src="assets/videos/Kinapped_cat_crop.mp4" width="250" controls muted autoplay loop></video>
+        <video src="assets/videos/botlab_exploration_video.mp4" width="250" controls muted autoplay loop></video>
       </div>
       <div class="project_cell">
         <p style="font-size:18px;margin-bottom: 0px;">
-          <font color="black"><b>Autonomous SLAM and Exploration with MBot</b></font>
+          <font color="black"><b>SLAM and Frontier-based Exploration with MBot</b></font>
         </p>
         <p>
-          <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/silvery107/silvery-botlab-f22?style=plastic&logo=github">
+          <!-- <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/silvery107/silvery-botlab-f22?style=plastic&logo=github">
           [<a href="https://github.com/silvery107/silvery-botlab-f22" target="_blank">
             Code
-          </a>]
-          [<a href="https://github.com/silvery107/silvery-botlab-f22/blob/main/data/S2T1_Botlab_Report.pdf" target="_blank">
-            PDF
+          </a>] -->
+          [<a href="docs/ROB_550_Botlab_Report.pdf" target="_blank">
+            Report
           </a>]
           <br>
-          In the Botlab, movement control, obstacle detection, maze exploration, and self-localization functionality was developed on the MBot robot, a mobile robot platform.
-          It is designed to explore the fundamentals of robot autonomy by developing MBot with autonomous mapping, localization, and exploration capabilities. 
-          <b>Winner</b> among 24 teams in the final competition.
+          Developed control and autonomy modules for a differential-drive mobile robot, 
+          including a wheel-speed PID controller and pure-pursuit motion controller 
+          achieving positional error below 3cm and heading error below 15 degree over a 7.308 m path. 
+          Implemented a SLAM system using occupancy-grid mapping and Monte Carlo localization with LiDAR, odometry, and IMU data, 
+          reaching a 0.0369 m RMS pose error in simulation. 
+          Integrated SLAM, A* path planning, and frontier-based exploration 
+          to enable autonomous navigation, mapping, and localization in unknown environments.
         </p>
       </div>
-    </td></tr> -->
+    </td></tr>
     <!-- ! ROB 550 Armlab -->
-    <!-- <tr><td>
+    <tr><td>
       <div class="project_cell">
-        <img src="assets/img/stack_16_high_crop.gif" height="190" class="zoom">
+        <!-- <img src="assets/img/stack_16_high_crop.gif" height="190" class="zoom"> -->
+        <video src="assets/videos/armlab_stacking_video.mp4" height="190" controls muted autoplay loop></video>
       </div>
       <div class="project_cell">
         <p style="font-size:18px;margin-bottom: 0px;">
-          <font color="black"><b>Robust Detecting and Palletizing with Robot Arm</b></font>
+          <font color="black"><b>Vision-Guided Manipulation</b></font>
         </p>
         <p>
-          <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/silvery107/silvery-armlab-f22?style=plastic&logo=github">
-          [<a href="https://github.com/silvery107/silvery-armlab-f22" target="_blank">
+          <!-- <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/silvery107/silvery-armlab-f22?style=plastic&logo=github"> -->
+          [<a href="https://github.com/ycsun2113/Armlab" target="_blank">
             Code
           </a>]
-          [<a href="https://github.com/silvery107/silvery-armlab-f22/blob/master/config/s2_t5_armlab_f22_CV.pdf" target="_blank">
-            CV PDF
+          [<a href="docs/ROB_550_Armlab_Report.pdf" target="_blank">
+            Report
           </a>]
-          [<a href="https://github.com/silvery107/silvery-armlab-f22/blob/master/config/s2_t5_armlab_f22_RC.pdf" target="_blank">
-            Control PDF
-          </a>]
-          [<a href="assets/img/block_detection.png" target="_blank">
+          <!-- [<a href="assets/img/block_detection.png" target="_blank">
             Block Detections
-          </a>]
+          </a>] -->
           <br>
-          In the Armlab, a 5-DOF robotic arm fully autonomously arranges blocks of different sizes, colors and positions into the desired arrangement. Analytical inverse kinematics is used to determine the appropriate waypoints. An overhead LiDAR Camera is utilized to identify blocks on the board.
-          <b>Winner</b> among 24 teams in the final competition.
+          Developed a vision-guided robotic manipulation system using an RGB-D sensor and a 5-DOF robotic arm, 
+          integrating OpenCV-based block detection with kinematics and control for autonomous manipulation. 
+          Designed motion-planning strategies enabling block sorting, stacking, 
+          and alignment based on shape, size, and color.
         </p>
       </div>
-    </td></tr> -->
-    <!-- ! Mobile Robot Navigation and Control Capstone-->
-    <!-- <tr><td>
+    </td></tr>
+    <!-- ! ANA*: Anytime Nonparametric A*-->
+    <tr><td>
       <div class="project_cell">
-        <video src="assets/videos/ee346-demo.mp4" width="250" controls muted autoplay loop></video>
+        <!-- <video src="assets/videos/ee346-demo.mp4" width="250" controls muted autoplay loop></video> -->
+         <img src="assets/img/path_planning.png" width="250" class="zoom">
       </div>
       <div class="project_cell">
         <p style="font-size:18px;margin-bottom: 0px;">
-          <font color="black"><b>Navigation and Lane Following with TurtleBot3</b></font>
+          <font color="black"><b>ANA*: Anytime Nonparametric A* Algorithm</b></font>
         </p>
         <p>
-          <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/silvery107/ee346-capstone-control?style=plastic&logo=github">
-          [<a href="https://github.com/silvery107/ee346-capstone-control" target="_blank">
+          <!-- <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/silvery107/ee346-capstone-control?style=plastic&logo=github"> -->
+          [<a href="https://github.com/ycsun2113/Anytime_Nonparametric_Astar" target="_blank">
             Code
           </a>]
-          [<a href="https://sites.google.com/view/ee346-capstone-22s-cmdzyl/home" target="_blank">
-            Website
+          [<a href="docs/ROB_422_Report.pdf" target="_blank">
+            Report
           </a>]
           <br>
-          We achieved a multifunctional and integrated system that includes autonomous navigation, 
-          lane following and ArUco detection using TurtleBot3 Burger. 
-          Our system is designed for the competition of finishing a specified task sequence.
+          Implemented and evaluated A* and ANA* algorithms for PR2 robot navigation, 
+          developing custom heuristic functions and 3D PyBullet environments to benchmark performance. 
+          Demonstrated ANA*'s ability to rapidly produce suboptimal paths and iteratively reach optimal solutions, 
+          outperforming A* across varied scenarios.
         </p>
       </div>
-    </td></tr> -->
+    </td></tr>
     <!-- ! Agile Waste Sorting with Tossing -->
     <!-- <tr><td>
       <div class="project_cell">
