@@ -2,6 +2,8 @@
 
 Welcome! This is my personal academic website built with Jekyll and hosted on GitHub Pages. It features a modern, responsive design with dynamic elements including dark mode, image zooming, animated background, and automatic last-updated timestamps.
 
+This template is from [Yulun Zhang](https://github.com/silvery107/template.site.git).
+
 ## Quick Start
 
 ### 1. Fork and Setup Repository
