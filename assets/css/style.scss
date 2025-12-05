@@ -173,13 +173,22 @@ section {
   padding-bottom:50px;
 }
 
+// footer {
+//   width:220px; // *keep the same as header
+//   float:left;
+//   position:fixed;
+//   bottom:10px;
+//   -webkit-font-smoothing:subpixel-antialiased;
+// }
+
 footer {
-  width:220px; // *keep the same as header
+  width:220px;
   float:left;
-  position:fixed;
-  bottom:10px;
+  position:static;   
+  margin-top: 40px;  
   -webkit-font-smoothing:subpixel-antialiased;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
   color:#222;
