@@ -1,5 +1,33 @@
 <table class="projects">
   <tbody>
+    <!-- ! Physically Grounded Digital Twin Generation -->
+    <tr><td>
+      <div class="project_cell">
+        <img src="assets/img/kitchen_tidybot.png" width="250" class="zoom">
+      </div>
+      <div class="project_cell">
+        <p style="font-size:18px;margin-bottom: 0px;">
+          <font color="black"><b>Physically Grounded Digital Twin Generation</b></font>
+        </p>
+        <p>
+          <!-- <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ycsun2113/HybridDyn_VSLAM?style=plastic&logo=github"> -->
+          <!-- [<a href="https://github.com/ycsun2113/HybridDyn_VSLAM" target="_blank">
+            Code
+          </a>]
+          [<a href="docs/ROB_530_Report.pdf" target="_blank">
+            Report
+          </a>]
+          [<a href="docs/ROB_530_Poster.pdf" target="_blank">
+            Poster
+          </a>] -->
+          <br>
+          Designed an end-to-end framework for physically accurate digital twin reconstruction 
+          through a combination of MLLMs reasoning and robot-environment interactive refinement. 
+          Simulated the system with NVIDIA Isaac Sim/Lab, deployed in the real-world using TidyBot, 
+          finetuned VLA policies and trained RL policies to validate the usage of the reconstructed digital twin.
+        </p>
+      </div>
+    </td></tr>
     <!-- ! Autonomous Driving Scene Reconstruction via 3D Gaussian Splatting -->
     <tr><td>
       <div class="project_cell">
@@ -30,6 +58,34 @@
           geometric stability, and robustness to dynamic objects in complex driving scenarios. 
           Provided guidelines for using these methods, analyzed their strengths and limitations, 
           and outlined potential directions for future research.
+        </p>
+      </div>
+    </td></tr>
+    <!-- ! Rapid Motor Adaptation (RMA) for RL-Based Quadruped Locomotion -->
+    <tr><td>
+      <div class="project_cell">
+        <img src="assets/img/non_flat_terrain_RL.gif" width="250" class="zoom">
+      </div>
+      <div class="project_cell">
+        <p style="font-size:18px;margin-bottom: 0px;">
+          <font color="black"><b>Rapid Motor Adaptation (RMA) for RL-Based Quadruped Locomotion</b></font>
+        </p>
+        <p>
+          <!-- <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ycsun2113/HybridDyn_VSLAM?style=plastic&logo=github"> -->
+          <!-- [<a href="https://github.com/ycsun2113/HybridDyn_VSLAM" target="_blank">
+            Code
+          </a>]
+          [<a href="docs/ROB_530_Report.pdf" target="_blank">
+            Report
+          </a>]
+          [<a href="docs/ROB_530_Poster.pdf" target="_blank">
+            Poster
+          </a>] -->
+          <br>
+          I built a two-phase Rapid Motor Adaptation (RMA) pipeline for Unitree Go1 quadruped locomotion in MuJoCo/Brax 
+          with JAX-based simulation by extending RLS-RL PPO to consume privileged observations and learn an environment 
+          latent, enabling adaptation beyond naive domain randomization. Trained a teacher-student adaptation module via DAgger-style distillation, promoting sim-to-real transfer capabilities, 
+          enabling robust locomotion on unseen rough terrains without privileged information at deployment.
         </p>
       </div>
     </td></tr>
