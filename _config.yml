@@ -3,12 +3,13 @@ theme: jekyll-theme-minimal
 
 # Basic Information
 title: Yung-Ching Sun
-description: MS ECE (Robotics) at the University of Michigan
+description: Robotics Ph.D. Student at Georgia Tech
 logo: assets/img/ycs_photo_10.jpg
 
 # Contact & Social Links
 url_github: https://github.com/ycsun2113
-url_email: ycs@umich.edu
+url_email: ysun767@gatech.edu
+# url_email: ycs@umich.edu
 url_linkedin: https://www.linkedin.com/in/yung-ching-sun
 url_cv: docs/CV_0421.pdf
 # url_steam: https://steamcommunity.com/id/silvery107
